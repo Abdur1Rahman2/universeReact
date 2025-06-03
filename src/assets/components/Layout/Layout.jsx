@@ -1,7 +1,7 @@
 import React from 'react';
 import Sidebar from './Sidebar/Sidebar.jsx';
 import "./Layout.css";
-import Topbar from './topbar/topbar.jsx';
+import Topbar from './Topbar/Topbar.jsx';
 import Rightbar from './Rightbar/Rightbar.jsx';
 const Layout = ({ children }) => {
   return (

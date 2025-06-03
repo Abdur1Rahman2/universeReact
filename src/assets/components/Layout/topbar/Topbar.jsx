@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./topbar.css";
+import "./Topbar.css";
 import Profile from "./Profile.jsx";
 import { Autocomplete } from "@mantine/core";
 import axios from "axios";
@@ -78,7 +78,7 @@ function Topbar() {
   const id = open ? "notification-popover" : undefined;
 
   return (
-    <div className="topbar">
+    <div className="Topbar">
       <div className="search-bar">
         <Autocomplete
           value={searchValue}
@@ -92,7 +92,7 @@ function Topbar() {
           limit="5"
         />
       </div>
-      <div className="topbar-right">
+      <div className="Topbar-right">
         <IconButton
           aria-describedby={id}
           onClick={handleNotificationClick}
